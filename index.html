@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>weatherScope</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <h1 class="logo">weatherScope</h1>
+
+  <div class="Search-box">
+    <input type="text" placeholder="Enter your city" id="box" >
+    <button>Search</button>
+  </div>
+
+  <div class="weather-container">
+    <div class="weather-card">
+      <img src="" class="weather-icon" alt="Weather Icon" />
+      <h2 class="temp">--°C</h2>
+      <p class="location">Location</p>
+      <p class="humidity">Humidity: --%</p>
+      <p class="wind">Wind: -- km/h</p>
+    </div>
+  </div>
+
+  <div class="forecast-container" style="display:none;">
+    <h3>5-Day Forecast</h3>
+    <div id="forecast-days"></div>
+  </div>
+nb 
+  <script src="index.js"></script>
+</body>
+</html>
