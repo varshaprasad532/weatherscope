@@ -99,3 +99,61 @@ body {
       border-top: none;
     }
 
+@media (max-width: 600px) {
+
+  body {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .Search-box {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  input[type="text"] {
+    width: 65%;
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 9px 12px;
+    font-size: 0.9rem;
+  }
+
+  .weather-container,
+  .forecast-container {
+    width: 100%;
+    margin: 15px auto;
+    float: none;
+    margin-left: 0;
+  }
+
+  .temp {
+    font-size: 2rem;
+  }
+
+  .location {
+    font-size: 1.3rem;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 1rem;
+  }
+
+  .forecast-day {
+    font-size: 1rem;
+    padding: 8px 0;
+  }
+
+  .weather-icon {
+    width: 80px;
+  }
+}
