@@ -98,3 +98,74 @@ body {
     .forecast-day:first-child {
       border-top: none;
     }
+
+
+
+    @media (max-width: 600px) {
+
+  body {
+    padding: 10px;
+    background-size: cover;
+  }
+
+  .logo {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .Search-box {
+    margin-bottom: 15px;
+  }
+
+  input[type="text"] {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  .weather-container,
+  .forecast-container {
+    width: 95%;
+    margin: 10px auto;
+    float: none;
+  }
+
+  .weather-icon {
+    width: 80px;
+  }
+
+  .temp {
+    font-size: 2rem;
+  }
+
+  .location {
+    font-size: 1.2rem;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 1rem;
+  }
+
+  .forecast-day {
+    font-size: 1rem;
+    padding: 8px 0;
+  }
+}
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    } 
+
+    
+
+
+
+
+
+
