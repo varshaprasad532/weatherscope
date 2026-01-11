@@ -1,103 +1,111 @@
 body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-image: url(pngtree-white-cloud-on-blue-sky-weather-background-picture-image_1229456.jpg); 
-      background-repeat: no-repeat;
-      background-size: cover;
-      margin: 0;
-      padding: 20px;
-    }
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url(image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+}
 
-    .logo {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-      color: #010b10;
-    }
+.logo {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #010b10;
+}
 
-    .Search-box {
-      margin-bottom: 20px;
-    }
+.Search-box {
+  margin-bottom: 20px;
+}
 
-    input[type="text"] {
-      padding: 10px;
-      font-size: 1rem;
-      width: 200px;
-      border: 1px solid #1d9f6b;
-      border-radius: 5px;
-    }
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  width: 200px;
+  border: 1px solid #1d9f6b;
+  border-radius: 5px;
+}
 
-    button {
-      padding: 10px 15px;
-      font-size: 1rem;
-      border: none;
-      background-color: #4c87a8;
-      color: rgb(18, 17, 17);
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #005f8e;
-    }
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  background-color: #4c87a8;
+  color: rgb(18, 17, 17);
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #005f8e;
+}
 
-    .weather-container  {
-      width: 400px;
-      margin: 0 auto 30px auto;
-    background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
-      align-items: center;
-      margin-left: 120px;
-      float: left;
-      border-radius: 10px;
-            font-weight: bold;
-      box-shadow: 0 0 10px #141414;
-    }
-     .forecast-container  {
-      width: 400px;
-      margin: 0 auto 30px auto;
-    background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
-      align-items: center;
-      margin-left: 120px;
-      float: left;
-      font-weight: bold;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #141414;
-     }
+.weather-container {
+  width: 400px;
+  margin: 0 auto 30px auto;
+  /* background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg); */
+  align-items: center;
+  margin-left: 120px;
+  float: left;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #141414;
+}
+.forecast-container {
+  width: 400px;
+  margin: 0 auto 30px auto;
+  /* background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg); */
+  align-items: center;
+  margin-left: 120px;
+  float: left;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #141414;
+}
 
-    .weather-card {
-      display: none;
-    }
+.weather-card {
+  display: none;
+}
 
-    .weather-icon {
-      width: 100px;
-    }
+.weather-icon {
+  width: 100px;
+}
 
-    .temp {
-      font-size: 2.5rem;
-      margin: 10px 0;
-    }
+.temp {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
 
-    .location {
-      font-size: 1.5rem;
-      margin-bottom: 10px;
-      color: #644b4b;
-    }
+.location {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #644b4b;
+}
 
-    .humidity, .wind {
-      font-size: 1.1rem;
-      margin: 5px 0;
-    }
+.humidity,
+.wind {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
 
-    .forecast-day {
-      border-top: 1px solid #0f0e0e;
-      padding: 10px 0;
-      font-size: 1.2rem;
-      display: flex;
-      justify-content: space-between;
-      color: #131313;
-    }
+.forecast-day {
+  border-top: 1px solid #0f0e0e;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  color: #131313;
+}
 
-    .forecast-day:first-child {
-      border-top: none;
-    }
+.forecast-day:first-child {
+  border-top: none;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+ 
 
 @media (max-width: 600px) {
 
@@ -157,3 +165,5 @@ body {
     width: 80px;
   }
 }
+
+

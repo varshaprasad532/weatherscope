@@ -1,3 +1,4 @@
+
   let input = document.querySelector("#box");
     let btn = document.querySelector("button");
     let temp = document.querySelector(".temp");
